@@ -45,7 +45,7 @@ public class PinataHit : MonoBehaviour
             if (successfulHits == 4)
             {
                 pinata.Play("PinataBreak");
-                // win.Play();
+                win.Play();
                 running = false;
                 candy.Play();
 
